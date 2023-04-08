@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@+id/navigation_diet_chart">
+
+    <fragment
+        android:id="@+id/navigation_diet_chart"
+        android:name="com.example.aidietplanner_v1.Kotlin.Fragments.DietChartFragment"
+        android:label="@string/title_diet_chart"
+        tools:layout="@layout/fragment_diet_chart" />
+
+    <fragment
+        android:id="@+id/navigation_progress"
+        android:name="com.example.aidietplanner_v1.Kotlin.Fragments.ProgressFragment"
+        android:label="@string/title_progress"
+        tools:layout="@layout/fragment_progress" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.aidietplanner_v1.Kotlin.Fragments.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

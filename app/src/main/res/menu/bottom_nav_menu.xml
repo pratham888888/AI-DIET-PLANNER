@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_diet_chart"
+        android:icon="@drawable/ic_diet"
+        android:title="@string/title_diet_chart" />
+
+    <item
+        android:id="@+id/navigation_progress"
+        android:icon="@drawable/ic_progress"
+        android:title="@string/title_progress" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/title_settings" />
+
+</menu>
